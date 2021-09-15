@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;600&display=swap');
-:root{
-    --primary-color:#60A5FA;
-    --secondary-color:pink;
+
+:root {
+    --primary-color: #60A5FA;
+    --secondary-color: pink;
 }
-body{
+
+body {
     margin: 0;
     background-image: url("images/bg.jpg");
     background-repeat: no-repeat;
@@ -11,10 +13,17 @@ body{
     font-family: 'Raleway', sans-serif;
     text-align: center;
 }
-h1{
+
+marquee {
+    color: azure;
+    font-size: larger;
+}
+
+h1 {
     margin-bottom: 3rem;
 }
-h2{
+
+h2 {
     display: inline;
     padding: 1rem;
     color: var(--secondary-color);
@@ -22,28 +31,50 @@ h2{
     border-radius: 0.5rem;
     background-color: var(--primary-color);
 }
-#input-dob{
+
+#input-dob {
     padding: 1rem 1.8rem;
     border-radius: 0.5rem;
 }
-#input-number{
-    padding:1.2rem 1rem;
+
+#input-number {
+    padding: 1.2rem 1rem;
     border-radius: 0.5rem;
 
 }
-p{
+
+p {
     display: inline;
     font-size: x-large;
     color: red;
     background-color: aliceblue;
 
 }
-button{
+
+button {
     font-family: 'Raleway', sans-serif;
     font-size: x-large;
-    color:antiquewhite;
+    color: antiquewhite;
     border: 0;
     margin-top: 1rem;
-    padding:1rem 1.5rem;
+    padding: 1rem 1.5rem;
     background-color: var(--primary-color);
+}
+ul{
+    list-style: none;
+}
+.footer-header{
+    color: azure;
+    font-weight:bolder;
+}
+hr{
+    background-color: azure;
+}
+.footer {
+    text-align: center;
+    margin-top: 1rem;
+}
+li{
+    display: inline;
+    padding: 1rem;
 }
