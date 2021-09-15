@@ -72,9 +72,8 @@ hr{
 }
 .footer {
     text-align: center;
-    margin-top: 1rem;
-    position: fixed;
-    margin-bottom: 0;
+    margin-top: 3rem;
+    
 }
 li{
     display: inline;
