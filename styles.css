@@ -73,6 +73,8 @@ hr{
 .footer {
     text-align: center;
     margin-top: 3rem;
+    position:absolute;
+    bottom: 0;
     
 }
 li{
