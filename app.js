@@ -11,6 +11,8 @@ function clickHandler() {
         output.innerText = "Enter both fields first!";
         exit;
     }
+    if(date<0 || num.value<0){alert("These can't be negative, please fill valid details!");
+     exit;}
     while (date !== 0) {
         sum += date % 10;
         date = Math.floor(date / 10);
